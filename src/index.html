@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./assets/img/Icon.png">
+    <title>Каскад Электро</title>
+    <link rel="stylesheet" href="assets/css/modern-normalize.css">
+    <link href="assets/css/index.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <img class="logo" src="./assets/img/header/logo.png" alt="logo">
+        <img style="display: none;" class="burger" id="burger" src="./assets/img/header/burger.png" alt="burger">
+        <small class="font__white">Мы готовы браться за то, что всем остальным неинтересно!</small>
+      </div>      
+      <ul class="font__white header__menu">
+        <li><h4><a href="#production">Продукция</a></h4></li>
+        <li><h4><a href="#devProduction">Продукция в разработке</a></h4></li>
+        <li><h4><a href="#consultation">Консультация</a></h4></li>
+        <li><h4><a href="#links">Контакты</a></h4></li>
+      </ul>
+      <ul style="display: none;" id="dropdown" class="header__dropdown-menu">
+        <li><h4><a class="close" href="#production">Продукция</a></h4></li>
+        <li><h4><a class="close" href="#devProduction">Продукция в разработке</a></h4></li>
+        <li><h4><a class="close" href="#consultation">Консультация</a></h4></li>
+        <li><h4><a class="close" href="#links">Контакты</a></h4></li>
+      </ul>
+    </header>
+    
+    <!-- Main -->
+  <main class="main">
+    <section class="main__header">
+      <h1>ООО "Каскад Электро"</h1>
+      <p>Измерительное и измерительное выкововольтное оборудование - разработка, производство, консультации.</p>
+    </section>
+    <!-- Glazing -->
+    <section class="production">
+      <a name="production"></a>
+      <div class="flex__label section__mainLabel">
+        <label for="production"><h2>1.</h2></label>
+        <h2 id="production" class="flex__content">Продукция</h2>
+      </div>
+      <div class="flex__label">
+        <label for="1.1"><h3 class="font__withoutShadow">1.1</h3></label>
+        <div class="section__wrapper flex__content">
+          <h3 id="1.1" class="section__label">Высоковольтная испытательная установка</h3>
+          <div class="section__content content">
+            <div class="content__text">
+              <p>В состав входят: ТОИ-100 и пульт управления.</p>
+              <p>Трансформатор ТОИ-100 с пультом управления - повышающий трансформатор 220 В - 100 кВ с элегазовой изоляцией. Предназначен для проведения испытаний электрической прочности изоляции.</p>
+              <p>Пульт управления (ПУ), имеющий комплексную защиту, может быть оснащен собственной системой измерения высокого напряжения или адаптирован под метрологическую систему заказчика.</p>
+              <small>По желанию заказчика в конструкцию могут быть внесены изменения.</small>
+              <h4 class="margin__bottom_small">Характеристики</h4>
+              <table>
+                <tr>
+                  <td>Первичное напряжение</td>
+                  <td>220 В</td>
+                </tr>
+                <tr>
+                  <td>Вторичное напряжение</td>
+                  <td>100 кВ</td>
+                </tr>
+                <tr>
+                  <td>Максимальная мощность нагрузки</td>
+                  <td>10 кВА</td>
+                </tr>
+                <tr>
+                  <td>Масса</td>
+                  <td>85 кг</td>
+                </tr>
+                <tr>
+                  <td>Размеры</td>
+                  <td>930x400x400 мм</td>
+                </tr>
+                <tr>
+                  <td>Рабочее давление элегаза</td>
+                  <td>3 атм</td>
+                </tr>
+              </table>
+            </div>
+            <div class="content__img">
+              <div class="img__wrapper">
+                <img class="img img__1" src="./assets/img/main/TransformTOI.png" alt="TransformTOI">
+                <span class="img__info">Рисунок 1.1 - Трансформатор ТОИ-100</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex__label">
+        <label for="1.2"><h3 class="font__withoutShadow">1.2</h3></label>
+        <div class="section__wrapper flex__content">
+          <h3 id="1.2" class="section__label">Высоковольтный испытательный конденсатор</h3>
+          <div class="section__content content">
+            <div class="content__text">
+              <p>Конденсатор высоковольтный керамический измерительный - ККВИ-10. Номинальное напряжение - 10 кВ.</p>
+              <p>Предназначен для измерения высокого напряжения при проведении высоковольных испытаний.</p>
+              <p>Рекомендуемый измерительный прибор - измеритель ВИНТ-1.</p>
+              <small>Возможно изготовление конденсаторов на другие номинальные напряжения.</small>
+              <h4 class="margin__bottom_small">Характеристики</h4>
+              <table>
+                <tr>
+                  <td>Значение емкости</td>
+                  <td>5 - 100 пФ</td>
+                </tr>
+                <tr>
+                  <td>Стабильность емкости</td>
+                  <td>0.01 %</td>
+                </tr>
+                <tr>
+                  <td>Номинальное напряжение</td>
+                  <td>10 кВ, 35 кВ, 50 кВ</td>
+                </tr>
+              </table>
+            </div>
+            <div class="content__img">
+              <div class="img__wrapper">
+                <img class="img img__2" src="./assets/img/main/CapacitorLLVI.png" alt="">
+                <span class="img__info">Рисунок 1.2 - Высоковольтный измерительный конденсатор ККВИ-10</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex__label">
+        <label for="1.3"><h3 class="font__withoutShadow">1.3</h3></label>
+        <div class="section__wrapper flex__content">
+          <h3 id="1.3" class="section__label">Измеритель высокого напряжения ВИНТ-1</h3>
+          <div class="section__content content">
+            <div class="content__text">
+              <p>Измеритель ВИНТ-1 предназначен для измерения тока или напряжения при проведении высоковольтных испытаний.</p>
+              <p>Выполнен в корпусе щитового измерительного прибора 72 мм.</p>
+              <p>Напряжение питания — 12 или 220 В.</p>
+              <p>Рекомендуемый измерительный импеданс - конденсатор ККВИ.</p>
+              <div class="innovation__wrapper">
+                <img src="./assets/img/main/innovationPage.png" alt="Фонд содействий инновациям">
+                <small>Прибор создан при поддержке Фонда содействия инновациям</small>
+              </div>
+              <h4 class="margin__bottom_small">Характеристики</h4>
+              <table>
+                <tr>
+                  <td>Диапазон измерения тока</td>
+                  <td>1мкА - 10 мА</td>
+                </tr>
+                <tr>
+                  <td>Диапазон измерения напряжения</td>
+                  <td>0.1В - 9999кВ</td>
+                </tr>
+                <tr>
+                  <td>Погрешность</td>
+                  <td>&#60;1%</td>
+                </tr>
+              </table>
+            </div>
+            <div class="content__img">
+              <div class="img__wrapper">
+                <div class="img__group1">
+                  <img class="img img__3" src="./assets/img/main/VoltMeterMain.png" alt="">
+                  <img class="img img__4" src="./assets/img/main/VoltMeterSecond.png" alt="">
+                </div>
+                <span class="img__info_group">Рисунок 1.3 - Измеритель высокого напряжения ВИНТ-1</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex__label">
+        <label for="1.4"><h3 class="font__withoutShadow">1.4</h3></label>
+        <div class="section__wrapper flex__content">
+          <h3 id="1.4" class="section__label">Автономный датчик системы диагностики предпробойного состояния изоляции.</h3>
+          <div class="section__content content">
+            <div class="content__text">
+              <p>Представляет собой опорный изолятор со встроенным датчиком частичных разрядов и визуальной (или дистанционной оптической) индикацией их возникновения.</p>
+              <p>Предназначен для диагностики предпробойного состояния изоляции сетей энергоснабжения 10кВ и выше.</p>
+              <p>Габаритные размеры - см. опорный изолятор на соответствующий класс напряжения.</p>
+              <h4 class="margin__bottom_small">Характеристики</h4>
+              <table>
+                <tr>
+                  <td>Чувствительность</td>
+                  <td>не хуже 500 пКл</td>
+                </tr>
+              </table>
+            </div>
+            <div class="content__img">
+              <div class="img__wrapper">
+                <div class="img__group2">
+                  <img class="img img__5" src="./assets/img/main/IzoMeterMain.png" alt="">
+                  <img class="img img__6" src="./assets/img/main/IzoMeterSecond.png" alt="">
+                </div>
+                <span class="img__info_group">Рисунок 1.4 - Система диагностики предпробойного состояния изоляции.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <!-- Decoration -->
+    <section class="devProduction">
+      <a name="devProduction"></a>
+      <div class="flex__label section__mainLabel">
+        <label for="devProduction"><h2>2.</h2></label>
+        <div class="flex__content">
+          <h2 id="devProduction">Разрабатываемая продукция</h2>
+          <p>(В разработке, не имеет аналогов на рынке)</p>
+        </div>
+      </div>
+      <div class="section__wrapper">
+        <div class="flex__label margin__bottom">
+          <label><h3 class="font__withoutShadow">2.1</h3></label>
+          <h4 class="before-content flex__content font__withoutShadow">Вольтфазометр – компаратор для поверки высоковольтных измерительных систем.</h4>
+        </div>
+        <div class="flex__label margin__bottom">
+          <label><h3 class="font__withoutShadow">2.2</h3></label>
+          <h4 class="before-content flex__content font__withoutShadow">Автоматизированное устройство компенсации реактивной мощности для высоковольтной испытательной установки.</h4>
+        </div>
+        <div class="flex__label margin__bottom">
+          <label><h3 class="font__withoutShadow">2.2</h3></label>
+          <h4 class="before-content flex__content font__withoutShadow">Специализированный селективный вольтметр для измерения радиопомех.</h4>
+        </div>
+      </div>
+    </section>
+
+    <section class="devProduction">
+      <a name="consultation"></a>
+      <div class="flex__label section__mainLabel">
+        <label for="devProduction"><h2>3.</h2></label>
+        <h2 class="flex__content" id="devProduction">Консультационные услуги</h2>
+      </div>
+      <div class="section__wrapper">
+        <div class="flex__label margin__bottom">
+          <label><h3 class="font__withoutShadow">3.1</h3></label>
+          <h4 class="before-content flex__content font__withoutShadow">Анализ сложных/непонятных/нестандартных ситуаций при эксплуатации высоковольтного электрооборудования. Анализ поломок, помощь в устранении неисправностей.</h4>
+        </div>
+        <div class="flex__label margin__bottom">
+          <label><h3 class="font__withoutShadow">3.2</h3></label>
+          <h4 class="before-content flex__content font__withoutShadow">Консультационная помощь при конструировании высоковольтного электрооборудования.</h4>
+        </div>
+        <div class="flex__label margin__bottom">
+          <label><h3 class="font__withoutShadow">3.3</h3></label>
+          <h4 class="before-content flex__content font__withoutShadow">Разработка высоковольтного измерительного и испытательного оборудования под параметры заказчика.</h4>
+        </div>
+        <div class="flex__label margin__bottom">
+          <label><h3 class="font__withoutShadow">3.4</h3></label>
+          <h4 class="before-content flex__content font__withoutShadow">Консультативная помощь в проектировании высоковольтных метрологических систем.</h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a name="links"></a>
+      <div class="flex__label section__mainLabel">
+        <label for="devProduction"><h2>4.</h2></label>
+        <h2 class="flex__content" id="devProduction">Контакты</h2>
+      </div>
+      <div class="section__wrapper">
+        <div class="grid__wrapper">
+          <div><h4 class="font__withoutShadow">+7 911 921 22 81</h4></div>
+          <div><h4 class="font__withoutShadow"><a href="mailto:kaselectro@yandex.ru?subject=Каскад Электро">kaselectro@yandex.ru</a></h4></div>
+          <div><h4 class="font__withoutShadow">Санкт-Петербург</h4></div>
+          <div><h4 class="font__withoutShadow">+7 921 582 95 38</h4></div>
+          <div><h4 class="font__withoutShadow">Евгений</h4></div>
+          <div><small>Мы готовы браться за то, что всем остальным неинтересно!</small></div>
+        </div>
+      </div>
+    </footer>
+  </main>
+  </body>
+  <script src="./script.js"></script>
+</html>

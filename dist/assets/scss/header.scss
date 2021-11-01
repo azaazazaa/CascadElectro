@@ -1,0 +1,119 @@
+.header{
+  height: 55px;
+  box-sizing: border-box;
+  background-color: #2B135C;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 0 280px;
+  &__logo{
+    position: absolute;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    width: 290px;
+    img{
+      margin-right: 15px;
+    }
+  }
+  &__menu{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+    &>li{
+      list-style-type: none;
+      text-decoration: none;
+      &:hover{
+        cursor: pointer;
+      }
+      h4{
+        color: #E7EBF3;
+        margin: 0;
+        line-height: 55px;
+      }
+      a{
+        text-decoration: none;
+        color: #E7EBF3;
+      }
+    }
+  }
+  &__dropdown-menu{
+    h4{
+      color: #E7EBF3;
+      margin: 0;
+      line-height: 55px;
+    }
+    a{
+      text-decoration: none;
+      color: #E7EBF3;
+    }
+  }
+}
+
+@media screen and (max-width: 1720px) {
+  .header{
+    padding: 0 230px;
+    &__logo{
+      width: 220px;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .header{
+    padding-left: 120px; 
+    padding-right: 60px;
+    &__logo{
+      left: 40px;
+      small {
+        position: absolute;
+        top: 55px;
+        width: 220px;
+        color: #2B135C; 
+      }
+    }
+    &__logo{
+      width: auto;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header{
+    &__logo{
+      left: 25px;
+      top: 8px;
+      small {
+        display: none;
+      }
+    }
+    &__menu{
+      display: none;
+    }
+    &__dropdown-menu{
+      /* display: block!important; */
+      position: absolute;
+      top: 55px;
+      left: 0;
+      width: 100%;
+      background-color: #2B135C;
+      margin: 0;
+      li{
+        text-decoration: none;
+        list-style-type: none;
+        h4{
+          color: #E7EBF3;
+        }
+      }
+    }
+    .logo{
+      display: none;
+    }
+    .burger{
+      display: block!important;
+    }
+  }
+}
